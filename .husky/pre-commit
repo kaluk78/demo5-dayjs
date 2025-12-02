@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "📚 Running LLM readme generation..."
+pnpm tsx scripts/pre-commit-llm-readme.ts
