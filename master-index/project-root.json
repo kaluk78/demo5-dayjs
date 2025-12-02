@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:54:52.272Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "app",
+      "path": ".",
+      "purpose": "Enhanced directory analysis of app",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "prettier.config.js",
+        "path": "prettier.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 8,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "karma.sauce.conf.js",
+        "path": "karma.sauce.conf.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 101,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "babel.config.js",
+        "path": "babel.config.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 21,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "docs",
+        "relativePath": "docs",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of docs",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "patches",
+        "relativePath": "patches",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of patches",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "scripts",
+        "relativePath": "scripts",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of scripts",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "src",
+        "relativePath": "src",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of src",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "test",
+        "relativePath": "test",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of test",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "types",
+        "relativePath": "types",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of types",
+        "keyElementsFromChild": []
+      }
+    ]
+  }
+}

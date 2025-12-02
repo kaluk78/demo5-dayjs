@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:54:44.613Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "quarterOfYear",
+      "path": "src/plugin/quarterOfYear",
+      "purpose": "Enhanced directory analysis of quarterOfYear",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/quarterOfYear/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 36,
+        "importedModules": [
+          {
+            "name": "Q",
+            "sourceModule": "../../constant",
+            "isDefault": false,
+            "namedImports": [
+              "Q",
+              "M",
+              "D"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "proto",
+            "type": "type",
+            "signature": "type proto"
+          }
+        ]
+      }
+    ],
+    "subdirectories": []
+  }
+}

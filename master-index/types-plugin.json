@@ -1,0 +1,1197 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-02T04:54:51.134Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000
+  },
+  "metadata": {
+    "directory": {
+      "name": "plugin",
+      "path": "types/plugin",
+      "purpose": "Enhanced directory analysis of plugin",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "weekday.d.ts",
+        "path": "types/plugin/weekday.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "weekYear.d.ts",
+        "path": "types/plugin/weekYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "weekOfYear.d.ts",
+        "path": "types/plugin/weekOfYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 13,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "utc.d.ts",
+        "path": "types/plugin/utc.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 20,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "utc",
+            "type": "function",
+            "signature": "function utc()"
+          },
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "updateLocale.d.ts",
+        "path": "types/plugin/updateLocale.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "updateLocale",
+            "type": "function",
+            "signature": "function updateLocale()"
+          }
+        ]
+      },
+      {
+        "name": "toObject.d.ts",
+        "path": "types/plugin/toObject.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 21,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "DayjsObject",
+            "type": "interface",
+            "signature": "interface DayjsObject"
+          },
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "toArray.d.ts",
+        "path": "types/plugin/toArray.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "timezone.d.ts",
+        "path": "types/plugin/timezone.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 21,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          },
+          {
+            "name": "DayjsTimezone",
+            "type": "interface",
+            "signature": "interface DayjsTimezone"
+          }
+        ]
+      },
+      {
+        "name": "relativeTime.d.ts",
+        "path": "types/plugin/relativeTime.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 25,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "RelativeTimeThreshold",
+            "type": "interface",
+            "signature": "interface RelativeTimeThreshold"
+          },
+          {
+            "name": "RelativeTimeOptions",
+            "type": "interface",
+            "signature": "interface RelativeTimeOptions"
+          },
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "quarterOfYear.d.ts",
+        "path": "types/plugin/quarterOfYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 27,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType",
+              "QUnitType",
+              "OpUnitType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "preParsePostFormat.d.ts",
+        "path": "types/plugin/preParsePostFormat.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "pluralGetSet.d.ts",
+        "path": "types/plugin/pluralGetSet.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 45,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "UnitType",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "objectSupport.d.ts",
+        "path": "types/plugin/objectSupport.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 49,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          },
+          {
+            "name": "ConfigTypeMap",
+            "type": "interface",
+            "signature": "interface ConfigTypeMap"
+          }
+        ]
+      },
+      {
+        "name": "negativeYear.d.ts",
+        "path": "types/plugin/negativeYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 4,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "minMax.d.ts",
+        "path": "types/plugin/minMax.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 23,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "max",
+            "type": "function",
+            "signature": "function max()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          },
+          {
+            "name": "min",
+            "type": "function",
+            "signature": "function min()"
+          }
+        ]
+      },
+      {
+        "name": "localizedFormat.d.ts",
+        "path": "types/plugin/localizedFormat.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "localeData.d.ts",
+        "path": "types/plugin/localeData.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 45,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "weekdays",
+            "type": "function",
+            "signature": "function weekdays()"
+          },
+          {
+            "name": "weekdaysShort",
+            "type": "function",
+            "signature": "function weekdaysShort()"
+          },
+          {
+            "name": "weekdaysMin",
+            "type": "function",
+            "signature": "function weekdaysMin()"
+          },
+          {
+            "name": "monthsShort",
+            "type": "function",
+            "signature": "function monthsShort()"
+          },
+          {
+            "name": "months",
+            "type": "function",
+            "signature": "function months()"
+          },
+          {
+            "name": "localeData",
+            "type": "function",
+            "signature": "function localeData()"
+          },
+          {
+            "name": "InstanceLocaleDataReturn",
+            "type": "interface",
+            "signature": "interface InstanceLocaleDataReturn"
+          },
+          {
+            "name": "GlobalLocaleDataReturn",
+            "type": "interface",
+            "signature": "interface GlobalLocaleDataReturn"
+          },
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          },
+          {
+            "name": "WeekdayNames",
+            "type": "type",
+            "signature": "type WeekdayNames"
+          },
+          {
+            "name": "MonthNames",
+            "type": "type",
+            "signature": "type MonthNames"
+          }
+        ]
+      },
+      {
+        "name": "isoWeeksInYear.d.ts",
+        "path": "types/plugin/isoWeeksInYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isoWeek.d.ts",
+        "path": "types/plugin/isoWeek.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 28,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "OpUnitType",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          },
+          {
+            "name": "ISOUnitType",
+            "type": "type",
+            "signature": "type ISOUnitType"
+          }
+        ]
+      },
+      {
+        "name": "isYesterday.d.ts",
+        "path": "types/plugin/isYesterday.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isTomorrow.d.ts",
+        "path": "types/plugin/isTomorrow.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isToday.d.ts",
+        "path": "types/plugin/isToday.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isSameOrBefore.d.ts",
+        "path": "types/plugin/isSameOrBefore.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType",
+              "OpUnitType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isSameOrAfter.d.ts",
+        "path": "types/plugin/isSameOrAfter.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType",
+              "OpUnitType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isMoment.d.ts",
+        "path": "types/plugin/isMoment.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isMoment",
+            "type": "function",
+            "signature": "function isMoment()"
+          }
+        ]
+      },
+      {
+        "name": "isLeapYear.d.ts",
+        "path": "types/plugin/isLeapYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "isBetween.d.ts",
+        "path": "types/plugin/isBetween.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType",
+              "OpUnitType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "duration.d.ts",
+        "path": "types/plugin/duration.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 88,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          },
+          {
+            "name": "OpUnitType",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "OpUnitType",
+              "UnitTypeLongPlural"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "duration",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "isDuration",
+            "type": "function",
+            "signature": "function isDuration()"
+          },
+          {
+            "name": "Duration",
+            "type": "interface",
+            "signature": "interface Duration"
+          },
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          },
+          {
+            "name": "DurationInputType",
+            "type": "type",
+            "signature": "type DurationInputType"
+          },
+          {
+            "name": "DurationAddType",
+            "type": "type",
+            "signature": "type DurationAddType"
+          },
+          {
+            "name": "DurationUnitsObjectType",
+            "type": "type",
+            "signature": "type DurationUnitsObjectType"
+          },
+          {
+            "name": "DurationUnitType",
+            "type": "type",
+            "signature": "type DurationUnitType"
+          },
+          {
+            "name": "CreateDurationType",
+            "type": "type",
+            "signature": "type CreateDurationType"
+          },
+          {
+            "name": "AddDurationType",
+            "type": "type",
+            "signature": "type AddDurationType"
+          }
+        ]
+      },
+      {
+        "name": "devHelper.d.ts",
+        "path": "types/plugin/devHelper.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "dayOfYear.d.ts",
+        "path": "types/plugin/dayOfYear.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "customParseFormat.d.ts",
+        "path": "types/plugin/customParseFormat.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 9,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "PluginOptions",
+            "type": "interface",
+            "signature": "interface PluginOptions"
+          }
+        ]
+      },
+      {
+        "name": "calendar.d.ts",
+        "path": "types/plugin/calendar.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc",
+              "ConfigType"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "Dayjs",
+            "type": "interface",
+            "signature": "interface Dayjs"
+          }
+        ]
+      },
+      {
+        "name": "buddhistEra.d.ts",
+        "path": "types/plugin/buddhistEra.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "bigIntSupport.d.ts",
+        "path": "types/plugin/bigIntSupport.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 12,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "unix",
+            "type": "function",
+            "signature": "function unix()"
+          },
+          {
+            "name": "ConfigTypeMap",
+            "type": "interface",
+            "signature": "interface ConfigTypeMap"
+          }
+        ]
+      },
+      {
+        "name": "badMutable.d.ts",
+        "path": "types/plugin/badMutable.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "arraySupport.d.ts",
+        "path": "types/plugin/arraySupport.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 11,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ConfigTypeMap",
+            "type": "interface",
+            "signature": "interface ConfigTypeMap"
+          }
+        ]
+      },
+      {
+        "name": "advancedFormat.d.ts",
+        "path": "types/plugin/advancedFormat.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 5,
+        "importedModules": [
+          {
+            "name": "PluginFunc",
+            "sourceModule": "dayjs",
+            "isDefault": false,
+            "namedImports": [
+              "PluginFunc"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": []
+  }
+}
