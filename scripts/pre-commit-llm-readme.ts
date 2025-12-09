@@ -16,7 +16,7 @@ import * as path from 'path';
 const PROJECT_ROOT = process.cwd();
 const MASTER_INDEX_DIR = path.join(PROJECT_ROOT, 'master-index');
 const LLM_GENERATOR_PATH = path.join(PROJECT_ROOT, 'apps', 'backend', 'bin', 'llm-readme-generator', 'llm-readme-generator-win-x64.exe');
-const DOCKER_IMAGE = 'llm-readme-generator:latest';
+const DOCKER_IMAGE = 'new-llm-readme-generator:latest';
 
 interface ScriptConfig {
   timeout: number; // milliseconds
