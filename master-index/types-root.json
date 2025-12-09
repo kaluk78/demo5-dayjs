@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:24.916Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:24.916Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "types",
+      "path": "types",
+      "purpose": "Enhanced directory analysis of types",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.d.ts",
+        "path": "types/index.d.ts",
+        "filePurpose": "TypeScript 5.4 implementation file",
+        "languageDetail": "TypeScript 5.4",
+        "lineCount": 430,
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "ConfigType",
+            "type": "type"
+          },
+          {
+            "name": "FormatObject",
+            "type": "interface"
+          },
+          {
+            "name": "OptionType",
+            "type": "type"
+          },
+          {
+            "name": "UnitTypeShort",
+            "type": "type"
+          },
+          {
+            "name": "UnitTypeLong",
+            "type": "type"
+          },
+          {
+            "name": "UnitTypeLongPlural",
+            "type": "type"
+          },
+          {
+            "name": "UnitType",
+            "type": "type"
+          },
+          {
+            "name": "OpUnitType",
+            "type": "type"
+          },
+          {
+            "name": "QUnitType",
+            "type": "type"
+          },
+          {
+            "name": "ManipulateType",
+            "type": "type"
+          },
+          {
+            "name": "PluginFunc",
+            "type": "type"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "dayjs",
+            "type": "function",
+            "signature": "function dayjs()"
+          },
+          {
+            "name": "dayjs",
+            "type": "function",
+            "signature": "function dayjs()"
+          },
+          {
+            "name": "dayjs",
+            "type": "function",
+            "signature": "function dayjs()"
+          },
+          {
+            "name": "locale",
+            "type": "function",
+            "signature": "function locale()"
+          },
+          {
+            "name": "isDayjs",
+            "type": "function",
+            "signature": "function isDayjs()"
+          },
+          {
+            "name": "unix",
+            "type": "function",
+            "signature": "function unix()"
+          },
+          {
+            "name": "Dayjs",
+            "type": "class",
+            "signature": "class Dayjs"
+          },
+          {
+            "name": "L",
+            "type": "const",
+            "signature": "const L"
+          },
+          {
+            "name": "ConfigTypeMap",
+            "type": "interface",
+            "signature": "interface ConfigTypeMap"
+          },
+          {
+            "name": "FormatObject",
+            "type": "interface",
+            "signature": "interface FormatObject"
+          },
+          {
+            "name": "ConfigType",
+            "type": "type",
+            "signature": "type ConfigType"
+          },
+          {
+            "name": "OptionType",
+            "type": "type",
+            "signature": "type OptionType"
+          },
+          {
+            "name": "UnitTypeShort",
+            "type": "type",
+            "signature": "type UnitTypeShort"
+          },
+          {
+            "name": "UnitTypeLong",
+            "type": "type",
+            "signature": "type UnitTypeLong"
+          },
+          {
+            "name": "UnitTypeLongPlural",
+            "type": "type",
+            "signature": "type UnitTypeLongPlural"
+          },
+          {
+            "name": "UnitType",
+            "type": "type",
+            "signature": "type UnitType"
+          },
+          {
+            "name": "OpUnitType",
+            "type": "type",
+            "signature": "type OpUnitType"
+          },
+          {
+            "name": "QUnitType",
+            "type": "type",
+            "signature": "type QUnitType"
+          },
+          {
+            "name": "ManipulateType",
+            "type": "type",
+            "signature": "type ManipulateType"
+          },
+          {
+            "name": "PluginFunc",
+            "type": "type",
+            "signature": "type PluginFunc"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "locale",
+        "relativePath": "locale",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of locale",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "plugin",
+        "relativePath": "plugin",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of plugin",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,2013 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:23.572Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:23.572Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "plugin",
+      "path": "test/plugin",
+      "purpose": "Enhanced directory analysis of plugin",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "weekday.test.js",
+        "path": "test/plugin/weekday.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 48,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "weekday",
+            "sourceModule": "../../src/plugin/weekday",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          },
+          {
+            "name": "../../src/locale/ar",
+            "sourceModule": "../../src/locale/ar",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "weekYear.test.js",
+        "path": "test/plugin/weekYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 50,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "weekYear",
+            "sourceModule": "../../src/plugin/weekYear",
+            "isDefault": true
+          },
+          {
+            "name": "weekOfYear",
+            "sourceModule": "../../src/plugin/weekOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/en-gb",
+            "sourceModule": "../../src/locale/en-gb",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "weekOfYear.test.js",
+        "path": "test/plugin/weekOfYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 63,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "weekOfYear",
+            "sourceModule": "../../src/plugin/weekOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "advancedFormat",
+            "sourceModule": "../../src/plugin/advancedFormat",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/en-gb",
+            "sourceModule": "../../src/locale/en-gb",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          }
+        ]
+      },
+      {
+        "name": "utc.test.js",
+        "path": "test/plugin/utc.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 351,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "customParseFormat",
+            "sourceModule": "../../src/plugin/customParseFormat",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "utc-utcOffset.test.js",
+        "path": "test/plugin/utc-utcOffset.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 170,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "updateLocale.test.js",
+        "path": "test/plugin/updateLocale.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 83,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "updateLocale",
+            "sourceModule": "../../src/plugin/updateLocale",
+            "isDefault": true
+          },
+          {
+            "name": "localizedFormat",
+            "sourceModule": "../../src/plugin/localizedFormat",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "toObject.test.js",
+        "path": "test/plugin/toObject.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "toObject",
+            "sourceModule": "../../src/plugin/toObject",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "toArray.test.js",
+        "path": "test/plugin/toArray.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "toArray",
+            "sourceModule": "../../src/plugin/toArray",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "timezone.test.js",
+        "path": "test/plugin/timezone.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 355,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment-timezone",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "timezone",
+            "sourceModule": "../../src/plugin/timezone",
+            "isDefault": true
+          },
+          {
+            "name": "customParseFormat",
+            "sourceModule": "../../src/plugin/customParseFormat",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NY",
+            "type": "const",
+            "signature": "const NY"
+          },
+          {
+            "name": "VAN",
+            "type": "const",
+            "signature": "const VAN"
+          },
+          {
+            "name": "DEN",
+            "type": "const",
+            "signature": "const DEN"
+          },
+          {
+            "name": "TOKYO",
+            "type": "const",
+            "signature": "const TOKYO"
+          },
+          {
+            "name": "PARIS",
+            "type": "const",
+            "signature": "const PARIS"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "LOCAL_TZ",
+            "type": "const",
+            "signature": "const LOCAL_TZ"
+          }
+        ]
+      },
+      {
+        "name": "relativeTime.test.js",
+        "path": "test/plugin/relativeTime.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 175,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "* as C",
+            "sourceModule": "../../src/constant",
+            "isDefault": false,
+            "namedImports": [
+              "* as C"
+            ]
+          },
+          {
+            "name": "relativeTime",
+            "sourceModule": "../../src/plugin/relativeTime",
+            "isDefault": true
+          },
+          {
+            "name": "updateLocale",
+            "sourceModule": "../../src/plugin/updateLocale",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/ru",
+            "sourceModule": "../../src/locale/ru",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          }
+        ]
+      },
+      {
+        "name": "quarterOfYear.test.js",
+        "path": "test/plugin/quarterOfYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 52,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "quarterOfYear",
+            "sourceModule": "../../src/plugin/quarterOfYear",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "preParsePostFormat.test.js",
+        "path": "test/plugin/preParsePostFormat.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 155,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "preParsePostFormat",
+            "sourceModule": "../../src/plugin/preParsePostFormat",
+            "isDefault": true
+          },
+          {
+            "name": "localeData",
+            "sourceModule": "../../src/plugin/localeData",
+            "isDefault": true
+          },
+          {
+            "name": "duration",
+            "sourceModule": "../../src/plugin/duration",
+            "isDefault": true
+          },
+          {
+            "name": "calendar",
+            "sourceModule": "../../src/plugin/calendar",
+            "isDefault": true
+          },
+          {
+            "name": "objectSupport",
+            "sourceModule": "../../src/plugin/objectSupport",
+            "isDefault": true
+          },
+          {
+            "name": "customParseFormat",
+            "sourceModule": "../../src/plugin/customParseFormat",
+            "isDefault": true
+          },
+          {
+            "name": "relativeTime",
+            "sourceModule": "../../src/plugin/relativeTime",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          },
+          {
+            "name": "arraySupport",
+            "sourceModule": "../../src/plugin/arraySupport",
+            "isDefault": true
+          },
+          {
+            "name": "en",
+            "sourceModule": "../../src/locale/en",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "TEST_DATE",
+            "type": "const",
+            "signature": "const TEST_DATE"
+          },
+          {
+            "name": "TEST_NUM",
+            "type": "const",
+            "signature": "const TEST_NUM"
+          }
+        ]
+      },
+      {
+        "name": "pluralGetSet.test.js",
+        "path": "test/plugin/pluralGetSet.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 129,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "pluralGetSet",
+            "sourceModule": "../../src/plugin/pluralGetSet",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "objectSupport.test.js",
+        "path": "test/plugin/objectSupport.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 401,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "objectSupport",
+            "sourceModule": "../../src/plugin/objectSupport",
+            "isDefault": true
+          },
+          {
+            "name": "quarterOfYear",
+            "sourceModule": "../../src/plugin/quarterOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          },
+          {
+            "name": "utils",
+            "sourceModule": "../../src/utils",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "negativeYear.test.js",
+        "path": "test/plugin/negativeYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 55,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "dayjs",
+            "isDefault": true
+          },
+          {
+            "name": "negativeYear",
+            "sourceModule": "../../src/plugin/negativeYear",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          },
+          {
+            "name": "REGEX_PARSE",
+            "sourceModule": "../../src/constant",
+            "isDefault": false,
+            "namedImports": [
+              "REGEX_PARSE"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "minMax.test.js",
+        "path": "test/plugin/minMax.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 72,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "minMax",
+            "sourceModule": "../../src/plugin/minMax",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "localizedFormat.test.js",
+        "path": "test/plugin/localizedFormat.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 119,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "es",
+            "sourceModule": "../../src/locale/es",
+            "isDefault": true
+          },
+          {
+            "name": "znCn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": true
+          },
+          {
+            "name": "localizedFormat",
+            "sourceModule": "../../src/plugin/localizedFormat",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "localeData.test.js",
+        "path": "test/plugin/localeData.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 120,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/fr",
+            "sourceModule": "../../src/locale/fr",
+            "isDefault": false
+          },
+          {
+            "name": "../../src/locale/ru",
+            "sourceModule": "../../src/locale/ru",
+            "isDefault": false
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          },
+          {
+            "name": "localeData",
+            "sourceModule": "../../src/plugin/localeData",
+            "isDefault": true
+          },
+          {
+            "name": "localizedFormat",
+            "sourceModule": "../../src/plugin/localizedFormat",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isoWeeksInYear.test.js",
+        "path": "test/plugin/isoWeeksInYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 31,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isoWeeksInYear",
+            "sourceModule": "../../src/plugin/isoWeeksInYear",
+            "isDefault": true
+          },
+          {
+            "name": "isLeapYear",
+            "sourceModule": "../../src/plugin/isLeapYear",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isoWeek.test.js",
+        "path": "test/plugin/isoWeek.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 137,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isoWeek",
+            "sourceModule": "../../src/plugin/isoWeek",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "ISOWEEK",
+            "type": "const",
+            "signature": "const ISOWEEK"
+          }
+        ]
+      },
+      {
+        "name": "isYesterday.test.js",
+        "path": "test/plugin/isYesterday.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isYesterday",
+            "sourceModule": "../../src/plugin/isYesterday",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isTomorrow.test.js",
+        "path": "test/plugin/isTomorrow.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isTomorrow",
+            "sourceModule": "../../src/plugin/isTomorrow",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isToday.test.js",
+        "path": "test/plugin/isToday.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isToday",
+            "sourceModule": "../../src/plugin/isToday",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isSameOrBefore.test.js",
+        "path": "test/plugin/isSameOrBefore.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 201,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isSameOrBefore",
+            "sourceModule": "../../src/plugin/isSameOrBefore",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isSameOrAfter.test.js",
+        "path": "test/plugin/isSameOrAfter.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 201,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isSameOrAfter",
+            "sourceModule": "../../src/plugin/isSameOrAfter",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isMoment.test.js",
+        "path": "test/plugin/isMoment.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isMoment",
+            "sourceModule": "../../src/plugin/isMoment",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isLeapYear.test.js",
+        "path": "test/plugin/isLeapYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 19,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "isLeapYear",
+            "sourceModule": "../../src/plugin/isLeapYear",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "isBetween.test.js",
+        "path": "test/plugin/isBetween.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 689,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src/index",
+            "isDefault": true
+          },
+          {
+            "name": "isBetween",
+            "sourceModule": "../../src/plugin/isBetween/index",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "duration.test.js",
+        "path": "test/plugin/duration.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 312,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "duration",
+            "sourceModule": "../../src/plugin/duration",
+            "isDefault": true
+          },
+          {
+            "name": "relativeTime",
+            "sourceModule": "../../src/plugin/relativeTime",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/fr",
+            "sourceModule": "../../src/locale/fr",
+            "isDefault": false
+          },
+          {
+            "name": "../../src/locale/es",
+            "sourceModule": "../../src/locale/es",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "devHelper.test.js",
+        "path": "test/plugin/devHelper.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 86,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "customParseFormat",
+            "sourceModule": "../../src/plugin/customParseFormat",
+            "isDefault": true
+          },
+          {
+            "name": "devHelper",
+            "sourceModule": "../../src/plugin/devHelper",
+            "isDefault": true
+          },
+          {
+            "name": "localeData",
+            "sourceModule": "../../src/plugin/localeData",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "declarations.test.js",
+        "path": "test/plugin/declarations.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 14,
+        "importedModules": [
+          {
+            "name": "fs",
+            "sourceModule": "fs",
+            "isDefault": true
+          },
+          {
+            "name": "path",
+            "sourceModule": "path",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "dayOfYear.test.js",
+        "path": "test/plugin/dayOfYear.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 51,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "dayOfYear",
+            "sourceModule": "../../src/plugin/dayOfYear",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "customParseFormat.test.js",
+        "path": "test/plugin/customParseFormat.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 463,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/ru",
+            "sourceModule": "../../src/locale/ru",
+            "isDefault": false
+          },
+          {
+            "name": "uk",
+            "sourceModule": "../../src/locale/uk",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          },
+          {
+            "name": "customParseFormat",
+            "sourceModule": "../../src/plugin/customParseFormat",
+            "isDefault": true
+          },
+          {
+            "name": "advancedFormat",
+            "sourceModule": "../../src/plugin/advancedFormat",
+            "isDefault": true
+          },
+          {
+            "name": "localizedFormats",
+            "sourceModule": "../../src/plugin/localizedFormat",
+            "isDefault": true
+          },
+          {
+            "name": "weekOfYear",
+            "sourceModule": "../../src/plugin/weekOfYear",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "calendar.test.js",
+        "path": "test/plugin/calendar.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 142,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/plugin/calendar.test.js",
+            "functionName": "cb",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose; Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -38,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "calendar",
+            "sourceModule": "../../src/plugin/calendar",
+            "isDefault": true
+          },
+          {
+            "name": "zhCn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "cb",
+            "type": "function",
+            "signature": "function cb()"
+          }
+        ]
+      },
+      {
+        "name": "buddhistEra.test.js",
+        "path": "test/plugin/buddhistEra.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 39,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "buddhistEra",
+            "sourceModule": "../../src/plugin/buddhistEra",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "bigIntSupport.test.js",
+        "path": "test/plugin/bigIntSupport.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 31,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "bigIntSupport",
+            "sourceModule": "../../src/plugin/bigIntSupport",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "badMutable.test.js",
+        "path": "test/plugin/badMutable.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 206,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "badMutable",
+            "sourceModule": "../../src/plugin/badMutable",
+            "isDefault": true
+          },
+          {
+            "name": "dayOfYear",
+            "sourceModule": "../../src/plugin/dayOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "weekOfYear",
+            "sourceModule": "../../src/plugin/weekOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "arraySupport.test.js",
+        "path": "test/plugin/arraySupport.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 53,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "arraySupport",
+            "sourceModule": "../../src/plugin/arraySupport",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "advancedFormat.test.js",
+        "path": "test/plugin/advancedFormat.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 142,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "advancedFormat",
+            "sourceModule": "../../src/plugin/advancedFormat",
+            "isDefault": true
+          },
+          {
+            "name": "isoWeek",
+            "sourceModule": "../../src/plugin/isoWeek",
+            "isDefault": true
+          },
+          {
+            "name": "weekOfYear",
+            "sourceModule": "../../src/plugin/weekOfYear",
+            "isDefault": true
+          },
+          {
+            "name": "weekYear",
+            "sourceModule": "../../src/plugin/weekYear",
+            "isDefault": true
+          },
+          {
+            "name": "timezone",
+            "sourceModule": "../../src/plugin/timezone",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../../src/plugin/utc",
+            "isDefault": true
+          },
+          {
+            "name": "../../src/locale/zh-cn",
+            "sourceModule": "../../src/locale/zh-cn",
+            "isDefault": false
+          },
+          {
+            "name": "../../src/locale/nl",
+            "sourceModule": "../../src/locale/nl",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/plugin/weekday.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/weekday.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/weekYear.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/weekYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/weekOfYear.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/weekOfYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/utc.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/utc.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/utc-utcOffset.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/utc-utcOffset.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/updateLocale.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/updateLocale.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/toObject.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/toObject.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/toArray.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/toArray.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/timezone.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/timezone.test.js",
+          "to": "moment-timezone",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/relativeTime.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/relativeTime.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/quarterOfYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/quarterOfYear.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/preParsePostFormat.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/pluralGetSet.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/pluralGetSet.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/objectSupport.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/objectSupport.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/negativeYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/negativeYear.test.js",
+          "to": "dayjs",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/minMax.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/localizedFormat.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/localizedFormat.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/localeData.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/localeData.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isoWeeksInYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isoWeek.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isoWeek.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isYesterday.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isTomorrow.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isToday.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isSameOrBefore.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isSameOrAfter.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isMoment.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isLeapYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/isBetween.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/duration.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/devHelper.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/declarations.test.js",
+          "to": "fs",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/declarations.test.js",
+          "to": "path",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/dayOfYear.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/dayOfYear.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/customParseFormat.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/customParseFormat.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/calendar.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/calendar.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/buddhistEra.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/buddhistEra.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/bigIntSupport.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/bigIntSupport.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/badMutable.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/badMutable.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/arraySupport.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/arraySupport.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/advancedFormat.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin/advancedFormat.test.js",
+          "to": "moment",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

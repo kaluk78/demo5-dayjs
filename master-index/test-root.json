@@ -1,0 +1,590 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:24.269Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:24.269Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "test",
+      "path": "test",
+      "purpose": "Enhanced directory analysis of test",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "utils.test.js",
+        "path": "test/utils.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 45,
+        "importedModules": [
+          {
+            "name": "Utils",
+            "sourceModule": "../src/utils",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "timezone.test.js",
+        "path": "test/timezone.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 83,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          },
+          {
+            "name": "timezone",
+            "sourceModule": "../src/plugin/timezone",
+            "isDefault": true
+          },
+          {
+            "name": "utc",
+            "sourceModule": "../src/plugin/utc",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "query.test.js",
+        "path": "test/query.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 42,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "plugin.test.js",
+        "path": "test/plugin.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 36,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/test/plugin.test.js",
+            "functionName": "testPlugin",
+            "classification": "definite-legitimate",
+            "confidence": 14,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Test file - simple test helpers expected"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 8,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "o",
+                  "parameterIndex": 0,
+                  "line": 4,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "filePath": "/app/test/plugin.test.js",
+            "functionName": "testPluginWithConfig",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Test file - simple test helpers expected",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -20,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "testPlugin",
+            "type": "function",
+            "signature": "const testPlugin = () =>"
+          },
+          {
+            "name": "testPluginWithConfig",
+            "type": "function",
+            "signature": "const testPluginWithConfig = () =>"
+          }
+        ]
+      },
+      {
+        "name": "parse.test.js",
+        "path": "test/parse.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 216,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          },
+          {
+            "name": "REGEX_PARSE",
+            "sourceModule": "../src/constant",
+            "isDefault": false,
+            "namedImports": [
+              "REGEX_PARSE"
+            ]
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "manipulate.test.js",
+        "path": "test/manipulate.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 77,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          },
+          {
+            "name": "../src/locale/zh-cn",
+            "sourceModule": "../src/locale/zh-cn",
+            "isDefault": false
+          },
+          {
+            "name": "../src/locale/ar",
+            "sourceModule": "../src/locale/ar",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "locale.test.js",
+        "path": "test/locale.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 148,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          },
+          {
+            "name": "es",
+            "sourceModule": "../src/locale/es",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "NOT_SUPPORTED_LOCALE_STRING",
+            "type": "const",
+            "signature": "const NOT_SUPPORTED_LOCALE_STRING"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "D2",
+            "type": "const",
+            "signature": "const D2"
+          },
+          {
+            "name": "D3",
+            "type": "const",
+            "signature": "const D3"
+          },
+          {
+            "name": "D4",
+            "type": "const",
+            "signature": "const D4"
+          }
+        ]
+      },
+      {
+        "name": "get-set.test.js",
+        "path": "test/get-set.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 131,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "display.test.js",
+        "path": "test/display.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 271,
+        "importedModules": [
+          {
+            "name": "moment",
+            "sourceModule": "moment",
+            "isDefault": true
+          },
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          },
+          {
+            "name": "th",
+            "sourceModule": "../src/locale/th",
+            "isDefault": true
+          },
+          {
+            "name": "../src/locale/ja",
+            "sourceModule": "../src/locale/ja",
+            "isDefault": false
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "constructor.test.js",
+        "path": "test/constructor.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 27,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "comparison.test.js",
+        "path": "test/comparison.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 531,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../src",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "browser.spec.js",
+        "path": "test/browser.spec.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 32,
+        "importedModules": [],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [
+      {
+        "name": "__mocks__",
+        "relativePath": "__mocks__",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of __mocks__",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "issues",
+        "relativePath": "issues",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of issues",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "locale",
+        "relativePath": "locale",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of locale",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "plugin",
+        "relativePath": "plugin",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of plugin",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/timezone.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/timezone.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/query.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/plugin.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/parse.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/parse.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/manipulate.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/manipulate.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/locale.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/locale.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/get-set.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/get-set.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/display.test.js",
+          "to": "moment",
+          "type": "imports"
+        },
+        {
+          "from": "test/display.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/constructor.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/comparison.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

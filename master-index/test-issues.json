@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:22.087Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:22.087Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "issues",
+      "path": "test/issues",
+      "purpose": "Enhanced directory analysis of issues",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "issue2027.swapped-order.test.js",
+        "path": "test/issues/issue2027.swapped-order.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 80,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "duration",
+            "sourceModule": "../../src/plugin/duration",
+            "isDefault": true
+          },
+          {
+            "name": "objectSupport",
+            "sourceModule": "../../src/plugin/objectSupport",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      },
+      {
+        "name": "issue2027.correct-order.test.js",
+        "path": "test/issues/issue2027.correct-order.test.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 79,
+        "importedModules": [
+          {
+            "name": "MockDate",
+            "sourceModule": "mockdate",
+            "isDefault": true
+          },
+          {
+            "name": "dayjs",
+            "sourceModule": "../../src",
+            "isDefault": true
+          },
+          {
+            "name": "duration",
+            "sourceModule": "../../src/plugin/duration",
+            "isDefault": true
+          },
+          {
+            "name": "objectSupport",
+            "sourceModule": "../../src/plugin/objectSupport",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "test/issues/issue2027.swapped-order.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        },
+        {
+          "from": "test/issues/issue2027.correct-order.test.js",
+          "to": "mockdate",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:03.843Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:03.843Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "demo",
+      "path": "docs/demo",
+      "purpose": "Enhanced directory analysis of demo",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "docs/demo/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 55,
+        "importedModules": [
+          {
+            "name": "dayjs",
+            "sourceModule": "dayjs",
+            "isDefault": true
+          }
+        ],
+        "exportedElements": [],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": []
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "docs/demo/index.js",
+          "to": "dayjs",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

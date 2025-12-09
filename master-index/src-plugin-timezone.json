@@ -1,0 +1,319 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:18.078Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:18.078Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "timezone",
+      "path": "src/plugin/timezone",
+      "purpose": "Enhanced directory analysis of timezone",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/timezone/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 158,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/timezone/index.js",
+            "functionName": "fixOffset",
+            "classification": "likely-legitimate",
+            "confidence": 30,
+            "isPlaceholder": true,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MIN",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MS",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/timezone/index.js",
+            "functionName": "getDateTimeFormat",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Returns simple/hardcoded value",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MIN",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MS",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/timezone/index.js",
+            "functionName": "makeFormatParts",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MIN",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MS",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/timezone/index.js",
+            "functionName": "tzOffset",
+            "classification": "likely-legitimate",
+            "confidence": 30,
+            "isPlaceholder": true,
+            "reasons": [
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MIN",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MS",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "MIN",
+            "sourceModule": "../../constant",
+            "isDefault": false,
+            "namedImports": [
+              "MIN",
+              "MS"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getDateTimeFormat",
+            "type": "function",
+            "signature": "const getDateTimeFormat = () =>"
+          },
+          {
+            "name": "makeFormatParts",
+            "type": "function",
+            "signature": "const makeFormatParts = () =>"
+          },
+          {
+            "name": "tzOffset",
+            "type": "function",
+            "signature": "const tzOffset = () =>"
+          },
+          {
+            "name": "fixOffset",
+            "type": "function",
+            "signature": "const fixOffset = () =>"
+          },
+          {
+            "name": "proto",
+            "type": "type",
+            "signature": "type proto"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

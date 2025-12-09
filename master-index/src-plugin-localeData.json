@@ -1,0 +1,282 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:17.044Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:17.044Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "localeData",
+      "path": "src/plugin/localeData",
+      "purpose": "Enhanced directory analysis of localeData",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/localeData/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 65,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/localeData/index.js",
+            "functionName": "getDayjsLocaleObject",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "t",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/localeData/index.js",
+            "functionName": "getLocalePart",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "t",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/localeData/index.js",
+            "functionName": "getLongDateFormat",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "t",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/localeData/index.js",
+            "functionName": "getShort",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Legitimate simple function pattern (getter/setter/utility)"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 8,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "t",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "localeOrder",
+                  "parameterIndex": 4,
+                  "line": 6,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "t",
+            "sourceModule": "../localizedFormat/utils",
+            "isDefault": false,
+            "namedImports": [
+              "t"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "getShort",
+            "type": "function",
+            "signature": "const getShort = () =>"
+          },
+          {
+            "name": "getDayjsLocaleObject",
+            "type": "function",
+            "signature": "const getDayjsLocaleObject = () =>"
+          },
+          {
+            "name": "getLongDateFormat",
+            "type": "function",
+            "signature": "const getLongDateFormat = () =>"
+          },
+          {
+            "name": "const",
+            "type": "type",
+            "signature": "type const"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

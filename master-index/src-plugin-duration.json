@@ -1,0 +1,4307 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:13.953Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:13.953Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "duration",
+      "path": "src/plugin/duration",
+      "purpose": "Enhanced directory analysis of duration",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/duration/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 298,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "absolute",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "add",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 205,
+              "endLine": 216
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "as",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 188,
+              "endLine": 190
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asDays",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 252,
+              "endLine": 252
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asHours",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 250,
+              "endLine": 250
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asMilliseconds",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 244,
+              "endLine": 244
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asMinutes",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 248,
+              "endLine": 248
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asMonths",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 256,
+              "endLine": 256
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asSeconds",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 246,
+              "endLine": 246
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asWeeks",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 254,
+              "endLine": 254
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "asYears",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 258,
+              "endLine": 258
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "calMilliseconds",
+            "classification": "definite-legitimate",
+            "confidence": 1,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 104,
+              "endLine": 108
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "clone",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 228,
+              "endLine": 230
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "constructor",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Constructor method - never a placeholder"
+            ],
+            "location": {
+              "startLine": 61,
+              "endLine": 102
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "days",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 251,
+              "endLine": 251
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "format",
+            "classification": "likely-legitimate",
+            "confidence": 24,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 167,
+              "endLine": 186
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "get",
+            "classification": "definite-legitimate",
+            "confidence": 12,
+            "isPlaceholder": false,
+            "reasons": [
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 192,
+              "endLine": 203
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "getNumberUnitFormat",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "hours",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 249,
+              "endLine": 249
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "humanize",
+            "classification": "likely-legitimate",
+            "confidence": 28,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "[FALLBACK] 1 other unused parameters suggest unfinished functionality",
+              "Note: Using custom analysis - TS/ESLint would be more accurate"
+            ],
+            "location": {
+              "startLine": 232,
+              "endLine": 237
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 8,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": [
+                {
+                  "name": "withSuffix",
+                  "parameterIndex": 0,
+                  "line": 232,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 1,
+                    "reason": "General parameter - may be intentionally unused"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "isDuration",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "isNegative",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "locale",
+            "classification": "likely-legitimate",
+            "confidence": 21,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Returns simple/hardcoded value",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 222,
+              "endLine": 226
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 24,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "manipulateDuration",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "milliseconds",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 243,
+              "endLine": 243
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "minutes",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 247,
+              "endLine": 247
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "months",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 255,
+              "endLine": 255
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "parseFromMilliseconds",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 110,
+              "endLine": 125
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 16,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "prettyUnit",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "roundNumber",
+            "classification": "likely-legitimate",
+            "confidence": 23,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "High context score suggests legitimate implementation",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -25,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "seconds",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 245,
+              "endLine": 245
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "subtract",
+            "classification": "definite-legitimate",
+            "confidence": 18,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 218,
+              "endLine": 220
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "toISOString",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 127,
+              "endLine": 161
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 4,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "toJSON",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 163,
+              "endLine": 165
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "valueOf",
+            "classification": "likely-legitimate",
+            "confidence": 22,
+            "isPlaceholder": true,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (3 lines)",
+              "Function takes no parameters",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 239,
+              "endLine": 241
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "weeks",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 253,
+              "endLine": 253
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "wrapper",
+            "classification": "definite-legitimate",
+            "confidence": 3,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Mutates state or has side effects",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/duration/index.js",
+            "functionName": "years",
+            "classification": "definite-legitimate",
+            "confidence": 4,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (1 lines)",
+              "Function takes no parameters",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 257,
+              "endLine": 257
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 22,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_DAY",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_HOUR",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_SECOND",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MILLISECONDS_A_WEEK",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "REGEX_FORMAT",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 7,
+                    "reason": "Business logic import - may indicate incomplete feature"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "MILLISECONDS_A_DAY",
+            "sourceModule": "../../constant",
+            "isDefault": false,
+            "namedImports": [
+              "MILLISECONDS_A_DAY",
+              "MILLISECONDS_A_HOUR",
+              "MILLISECONDS_A_MINUTE",
+              "MILLISECONDS_A_SECOND",
+              "MILLISECONDS_A_WEEK",
+              "REGEX_FORMAT"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "wrapper",
+            "type": "function",
+            "signature": "const wrapper = () =>"
+          },
+          {
+            "name": "getNumberUnitFormat",
+            "type": "function",
+            "signature": "const getNumberUnitFormat = () =>"
+          },
+          {
+            "name": "manipulateDuration",
+            "type": "function",
+            "signature": "const manipulateDuration = () =>"
+          },
+          {
+            "name": "Duration",
+            "type": "class",
+            "signature": "class Duration"
+          },
+          {
+            "name": "MILLISECONDS_A_YEAR",
+            "type": "const",
+            "signature": "const MILLISECONDS_A_YEAR"
+          },
+          {
+            "name": "MILLISECONDS_A_MONTH",
+            "type": "const",
+            "signature": "const MILLISECONDS_A_MONTH"
+          },
+          {
+            "name": "Y",
+            "type": "const",
+            "signature": "const Y"
+          },
+          {
+            "name": "M",
+            "type": "const",
+            "signature": "const M"
+          },
+          {
+            "name": "D",
+            "type": "const",
+            "signature": "const D"
+          },
+          {
+            "name": "H",
+            "type": "const",
+            "signature": "const H"
+          },
+          {
+            "name": "S",
+            "type": "const",
+            "signature": "const S"
+          },
+          {
+            "name": "T",
+            "type": "const",
+            "signature": "const T"
+          },
+          {
+            "name": "P",
+            "type": "const",
+            "signature": "const P"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

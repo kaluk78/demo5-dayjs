@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:18.538Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:18.538Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "utc",
+      "path": "src/plugin/utc",
+      "purpose": "Enhanced directory analysis of utc",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/utc/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 154,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/utc/index.js",
+            "functionName": "offsetFromString",
+            "classification": "definite-legitimate",
+            "confidence": 19.6,
+            "isPlaceholder": false,
+            "reasons": [
+              "[FALLBACK] 2 AI-suspicious unused variables: hoursOffset, minutesOffset",
+              "Note: Using custom analysis - TS/ESLint would be more accurate",
+              "Moderate context score"
+            ],
+            "location": {
+              "startLine": 6,
+              "endLine": 21
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 9.600000000000001,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "MILLISECONDS_A_MINUTE",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                },
+                {
+                  "name": "MIN",
+                  "source": "../../constant",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [
+                {
+                  "name": "hoursOffset",
+                  "line": 13,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                },
+                {
+                  "name": "minutesOffset",
+                  "line": 13,
+                  "hasInitializer": true,
+                  "isAISuspicious": true,
+                  "likelyPlaceholder": true,
+                  "priority": {
+                    "level": "IMPORTANT",
+                    "score": 6,
+                    "reason": "Important business variable - may indicate incomplete logic"
+                  }
+                }
+              ],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "MILLISECONDS_A_MINUTE",
+            "sourceModule": "../../constant",
+            "isDefault": false,
+            "namedImports": [
+              "MILLISECONDS_A_MINUTE",
+              "MIN"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "offsetFromString",
+            "type": "function",
+            "signature": "function offsetFromString()"
+          },
+          {
+            "name": "REGEX_VALID_OFFSET_FORMAT",
+            "type": "const",
+            "signature": "const REGEX_VALID_OFFSET_FORMAT"
+          },
+          {
+            "name": "REGEX_OFFSET_HOURS_MINUTES_FORMAT",
+            "type": "const",
+            "signature": "const REGEX_OFFSET_HOURS_MINUTES_FORMAT"
+          },
+          {
+            "name": "UTC_FORMAT_DEFAULT",
+            "type": "const",
+            "signature": "const UTC_FORMAT_DEFAULT"
+          },
+          {
+            "name": "dayjs",
+            "type": "type",
+            "signature": "type dayjs"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

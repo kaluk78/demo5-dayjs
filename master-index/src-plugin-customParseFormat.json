@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:12.458Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:12.458Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "customParseFormat",
+      "path": "src/plugin/customParseFormat",
+      "purpose": "Enhanced directory analysis of customParseFormat",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "index.js",
+        "path": "src/plugin/customParseFormat/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 271,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "correctHours",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 131,
+              "endLine": 144
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "getLocalePart",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "makeParser",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility); Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 146,
+              "endLine": 179
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -45,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "meridiemMatch",
+            "classification": "definite-placeholder",
+            "confidence": 100,
+            "isPlaceholder": true,
+            "reasons": [
+              "Contains explicit placeholder marker: \"todo\"",
+              "Returns simple/hardcoded value"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 85,
+              "namingPatterns": 0,
+              "astAnalysis": 12,
+              "commentAnalysis": 0,
+              "contextFilter": 0,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "offsetFromString",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Moderate context score",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 21,
+              "endLine": 27
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -15,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/customParseFormat/index.js",
+            "functionName": "parseFormattedInput",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Legitimate simple function pattern (getter/setter/utility)",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 0,
+              "commentAnalysis": 0,
+              "contextFilter": -30,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [
+                {
+                  "name": "u",
+                  "source": "../localizedFormat/utils",
+                  "line": 0,
+                  "isDefault": false,
+                  "isAISuspicious": false,
+                  "likelyPlaceholder": false,
+                  "priority": {
+                    "level": "TRIVIAL",
+                    "score": 2,
+                    "reason": "General import - low priority for implementation"
+                  }
+                }
+              ],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [
+          {
+            "name": "u",
+            "sourceModule": "../localizedFormat/utils",
+            "isDefault": false,
+            "namedImports": [
+              "u"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "offsetFromString",
+            "type": "function",
+            "signature": "function offsetFromString()"
+          },
+          {
+            "name": "correctHours",
+            "type": "function",
+            "signature": "function correctHours()"
+          },
+          {
+            "name": "makeParser",
+            "type": "function",
+            "signature": "function makeParser()"
+          },
+          {
+            "name": "getLocalePart",
+            "type": "function",
+            "signature": "const getLocalePart = () =>"
+          },
+          {
+            "name": "meridiemMatch",
+            "type": "function",
+            "signature": "const meridiemMatch = () =>"
+          },
+          {
+            "name": "parseFormattedInput",
+            "type": "function",
+            "signature": "const parseFormattedInput = () =>"
+          },
+          {
+            "name": "const",
+            "type": "type",
+            "signature": "type const"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

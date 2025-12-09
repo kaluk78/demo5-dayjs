@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:17.158Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:17.158Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "localizedFormat",
+      "path": "src/plugin/localizedFormat",
+      "purpose": "Enhanced directory analysis of localizedFormat",
+      "ownKeyElements": []
+    },
+    "files": [
+      {
+        "name": "utils.js",
+        "path": "src/plugin/localizedFormat/utils.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 18,
+        "placeholderDetection": [
+          {
+            "filePath": "/app/src/plugin/localizedFormat/utils.js",
+            "functionName": "t",
+            "classification": "definite-legitimate",
+            "confidence": 0,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (2 lines)",
+              "Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -18,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          },
+          {
+            "filePath": "/app/src/plugin/localizedFormat/utils.js",
+            "functionName": "u",
+            "classification": "definite-legitimate",
+            "confidence": 15,
+            "isPlaceholder": false,
+            "reasons": [
+              "Low cyclomatic complexity (1)",
+              "Very short function (4 lines)",
+              "Moderate context score; Utility function with clear purpose",
+              "Safety cap applied: cheap heuristics only"
+            ],
+            "location": {
+              "startLine": 1,
+              "endLine": 1
+            },
+            "detectionMethods": {
+              "explicitMarkers": 0,
+              "namingPatterns": 0,
+              "astAnalysis": 18,
+              "commentAnalysis": 0,
+              "contextFilter": -33,
+              "unusedCodeAnalysis": 0,
+              "externalUnusedChecks": 0,
+              "enhancedContext": 0
+            },
+            "unusedCode": {
+              "unusedImports": [],
+              "unusedVariables": [],
+              "unusedMethods": [],
+              "unusedParameters": []
+            }
+          }
+        ],
+        "importedModules": [],
+        "exportedElements": [
+          {
+            "name": "t",
+            "type": "const"
+          },
+          {
+            "name": "englishFormats",
+            "type": "const"
+          },
+          {
+            "name": "u",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "u",
+            "type": "function",
+            "signature": "const u = () =>"
+          },
+          {
+            "name": "B",
+            "type": "const",
+            "signature": "const B"
+          }
+        ]
+      },
+      {
+        "name": "index.js",
+        "path": "src/plugin/localizedFormat/index.js",
+        "filePurpose": "JavaScript ES2022 implementation file",
+        "languageDetail": "JavaScript ES2022",
+        "lineCount": 16,
+        "importedModules": [
+          {
+            "name": "FORMAT_DEFAULT",
+            "sourceModule": "../../constant",
+            "isDefault": false,
+            "namedImports": [
+              "FORMAT_DEFAULT"
+            ]
+          },
+          {
+            "name": "u",
+            "sourceModule": "./utils",
+            "isDefault": false,
+            "namedImports": [
+              "u",
+              "englishFormats"
+            ]
+          }
+        ],
+        "exportedElements": [
+          {
+            "name": "default",
+            "type": "const"
+          }
+        ],
+        "functions": [],
+        "classes": [],
+        "keyElementsInFile": [
+          {
+            "name": "const",
+            "type": "type",
+            "signature": "type const"
+          }
+        ]
+      }
+    ],
+    "subdirectories": [],
+    "dependencyGraph": {
+      "edges": [
+        {
+          "from": "src/plugin/localizedFormat/index.js",
+          "to": "src/plugin/localizedFormat/utils.js",
+          "type": "imports"
+        }
+      ],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}

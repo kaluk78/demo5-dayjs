@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json.schemastore.org/llm-metadata-1.4.json",
+  "version": "2.1.0",
+  "generatedAt": "2025-12-09T10:02:19.554Z",
+  "_TRACE_SOURCE": "RecursiveOrchestratorService.saveDirectoryJson_LINE_730",
+  "_TRACE_TIMESTAMP": "2025-12-09T10:02:19.554Z",
+  "configuration": {
+    "detectPlaceholders": true,
+    "placeholderConfidence": 20,
+    "placeholderAnalysisLevel": "enhanced",
+    "detailLevel": "standard",
+    "includeComplexity": false,
+    "maxFiles": 2000,
+    "_MARKER": "RecursiveOrchestratorService_saveDirectoryJson_WAS_HERE"
+  },
+  "metadata": {
+    "directory": {
+      "name": "plugin",
+      "path": "src/plugin",
+      "purpose": "Enhanced directory analysis of plugin",
+      "ownKeyElements": []
+    },
+    "files": [],
+    "subdirectories": [
+      {
+        "name": "advancedFormat",
+        "relativePath": "advancedFormat",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of advancedFormat",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "arraySupport",
+        "relativePath": "arraySupport",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of arraySupport",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "badMutable",
+        "relativePath": "badMutable",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of badMutable",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "bigIntSupport",
+        "relativePath": "bigIntSupport",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of bigIntSupport",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "buddhistEra",
+        "relativePath": "buddhistEra",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of buddhistEra",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "calendar",
+        "relativePath": "calendar",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of calendar",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "customParseFormat",
+        "relativePath": "customParseFormat",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of customParseFormat",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "dayOfYear",
+        "relativePath": "dayOfYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of dayOfYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "devHelper",
+        "relativePath": "devHelper",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of devHelper",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "duration",
+        "relativePath": "duration",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of duration",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isBetween",
+        "relativePath": "isBetween",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isBetween",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isLeapYear",
+        "relativePath": "isLeapYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isLeapYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isMoment",
+        "relativePath": "isMoment",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isMoment",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isSameOrAfter",
+        "relativePath": "isSameOrAfter",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isSameOrAfter",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isSameOrBefore",
+        "relativePath": "isSameOrBefore",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isSameOrBefore",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isToday",
+        "relativePath": "isToday",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isToday",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isTomorrow",
+        "relativePath": "isTomorrow",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isTomorrow",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isYesterday",
+        "relativePath": "isYesterday",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isYesterday",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isoWeek",
+        "relativePath": "isoWeek",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isoWeek",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "isoWeeksInYear",
+        "relativePath": "isoWeeksInYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of isoWeeksInYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "localeData",
+        "relativePath": "localeData",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of localeData",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "localizedFormat",
+        "relativePath": "localizedFormat",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of localizedFormat",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "minMax",
+        "relativePath": "minMax",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of minMax",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "negativeYear",
+        "relativePath": "negativeYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of negativeYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "objectSupport",
+        "relativePath": "objectSupport",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of objectSupport",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "pluralGetSet",
+        "relativePath": "pluralGetSet",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of pluralGetSet",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "preParsePostFormat",
+        "relativePath": "preParsePostFormat",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of preParsePostFormat",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "quarterOfYear",
+        "relativePath": "quarterOfYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of quarterOfYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "relativeTime",
+        "relativePath": "relativeTime",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of relativeTime",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "timezone",
+        "relativePath": "timezone",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of timezone",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "toArray",
+        "relativePath": "toArray",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of toArray",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "toObject",
+        "relativePath": "toObject",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of toObject",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "updateLocale",
+        "relativePath": "updateLocale",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of updateLocale",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "utc",
+        "relativePath": "utc",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of utc",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "weekOfYear",
+        "relativePath": "weekOfYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of weekOfYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "weekYear",
+        "relativePath": "weekYear",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of weekYear",
+        "keyElementsFromChild": []
+      },
+      {
+        "name": "weekday",
+        "relativePath": "weekday",
+        "sourcedPurposeFromChild": "Enhanced directory analysis of weekday",
+        "keyElementsFromChild": []
+      }
+    ],
+    "dependencyGraph": {
+      "edges": [],
+      "circularDependencies": []
+    }
+  },
+  "verificationSummary": null
+}
